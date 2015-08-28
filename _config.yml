@@ -14,6 +14,7 @@ menu:
 widgets: 
 - category
 - tag
+- tagcloud
 - links
 - douban
 - rss
@@ -41,7 +42,7 @@ highlight_theme: default
 
 #### index post is expanding or not 
 index:
-  expand: true           ## default is unexpanding,so you can only see the short description of each post.
+  expand: false           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
 close_aside: false  #close sidebar in post page if true
@@ -53,8 +54,8 @@ creative_commons: none
 
 #### Author information
 author:
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  intro_line1:  ## your introduction on the bottom of the page
+  intro_line2:  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -78,13 +79,12 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com,一个面向程序员交流分享的新一代社区
   Jark's Blog: http://wuchong.me
 
 
 
 #### Comment
-duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+duoshuo_shortname: skywolf   ## e.g. wuchong   your duoshuo short name.
 disqus_shortname:     ## e.g. wuchong   your disqus short name.
 
 #### Share button
